@@ -1,0 +1,7 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Brentie2006/SkywarsPe
+branches:
+- master
+projects:
+  SkywarsPe:
+    path: ""
+...
