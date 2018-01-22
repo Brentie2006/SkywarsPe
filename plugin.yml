@@ -1,6 +1,6 @@
 name: SkyWarsPE
 main: SkyWarsPE\Main
-version: 1.0.0beta
+version: [3.0.0-ALPHA10]
 api: [1.10.0]
 load: POSTWORLD
 authors: [SkywarsPe Team(luca28pet, WantedKillers, Jon)]
