@@ -71,8 +71,8 @@ private $aplayers = 0;
 				switch($args[0]){
 					case "play":
 						if($sender->hasPermission("skywars.command.play") or $sender->hasPermission("skywars.command") or $sender->hasPermission("skywars")){
-							if($this->aplayers >= $this->getConfig()->get('neededplayers') and $this->skywarsstarted == false){ //if players in the world are more or equal as the max players
-								$sender->sendMessage("The game is full"); // game full (EXCEPTION)
+							if($this->aplayers >= $this->getConfig()->get('neededplayers') and $this->skywarsstarted == false){ //if players in the world are more or equal as the max players 
+								$sender->sendMessage("The game is full"); // game full (EXCEPTION) in src/pocketmine/plugin/PluginDescription
 								return true;
 							}elseif($this->aplayers < $this->getConfig()->get('neededplayers') and $this->skywarsstarted == false){ //if player number is less than the max.
 								$spawn = $this->getConfig()->get('spawns')[$this->aplayers]; //no need to do + 1 on this, because arrays start counting form 0 // get the correct spawn place
